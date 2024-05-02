@@ -2,8 +2,9 @@
     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <symbol id="icon-burger" viewBox="0 0 32 32">
-            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4"
-                d="M4 11.333h24M4 20.667h24"></path>
+            <path d="M4.25 12.042h25.5m-25.5 9.916h25.5" stroke="#0C0C0C" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </path>
         </symbol>
         <symbol id="icon-close" viewBox="0 0 34 34">
             <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4"
