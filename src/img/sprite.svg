@@ -4,8 +4,9 @@
       <path
         d="M19.352 5.181h.914V8.61h-1.143c-.457 0-.914 0-1.143.229-.229.229-.229.457-.229.99v1.219h2.514v2.895h-2.514v12.571h-3.886V13.866h-2.057v-2.895h2.057v-.99c0-1.676.229-2.895.686-3.429.686-.99 2.057-1.448 4.114-1.448.229.076.457.076.686.076z" />
     </symbol>
-    <symbol id="icon-burger" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4" d="M4 11.333h24M4 20.667h24" />
+    <symbol id="icon-burger" viewBox="0 0 34 34">
+      <path d="M5 14.1667H35M5 25.8334H35" stroke="#0C0C0C" stroke-width="3" stroke-linecap="round"
+        stroke-linejoin="round" />
     </symbol>
     <symbol id="icon-instagram" viewBox="0 0 32 32">
       <path

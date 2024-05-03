@@ -78,6 +78,11 @@
     font-size: 20px;
     padding: 34px 0;
   } 
+
+  .burger-icon {
+    width: 40px;
+    height: 40px;
+  }
   
 }
 
@@ -169,72 +174,43 @@
 
 
 .mobile-menu {
+  width: 200px;
+  height: 812px;
   position: fixed;
-  inset: 0;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(0deg,
-        rgba(12, 12, 12, 0.92) 0%,
-        rgba(12, 12, 12, 0.92) 100%),
-      url(../images/header/mobile-menu-background-mob@1x.webp);
-  background: #0000003c no-repeat padding-box;
-  backdrop-filter: blur(4px);
-  opacity: 1;
-  transform: translateX(100%);
-  transition:
-    transform 500ms ease-in-out,
-    opacity 0.3s ease-in-out;
-}
-
-.mobile-menu-container {
-  position: fixed;
-  top: 0%;
-  right: 0%;
-  z-index: 1000;
+  top: 0;
+  right: 0;
+  background-image: url('..img/header/1.jpg');
+  background-color: rgba(12, 12, 12, 0.92);
+  padding-left: 64px;
+  padding-right: 63px;
+  padding-top: 240px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-
-  width: 54%;
-  height: 100%;
-
-  padding: 20px 20px 40px 40px;
-  background-image: linear-gradient(0deg,
-      rgba(12, 12, 12, 0.92) 0%,
-      rgba(12, 12, 12, 0.92) 100%),
-    url(../images/header/mobile-menu-background-mob@1x.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  transform: translateX(100%);
+  justify-content: space-between;
+  overflow: auto;
+  pointer-events: none;
   opacity: 0;
+  }
+
+  
+.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.3s ease;
 }
 
-.is-open {
-  visibility: visible;
-  opacity: 1;
-  transform: translateX(0);
-  transition-timing-function: ease-in;
-  transition: transform 0.5s;
-}
 
 .mobile-menu-close {
-  padding: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
   position: absolute;
   top: 20px;
   right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 38px;
-  height: 38px;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
   background-color: transparent;
-  cursor: pointer;
-  padding: 8px;
+  padding: 0;
+  border: none;
 }
 
 .mobile-menu-close-icon {
@@ -323,17 +299,9 @@
 /* ------Tablet----- */
 
 @media screen and (min-width: 768px) {
-  .mobile-menu-container {
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    z-index: 1000;
-    justify-content: center;
 
-    width: 43%;
-    height: 100%;
-    padding: 26px 32px 50px 32px;
-  }
+  
+  
 
   .mobile-menu-close {
     position: absolute;
