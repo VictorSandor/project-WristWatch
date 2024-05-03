@@ -1,0 +1,298 @@
+/* ================SALE MOBILE============= */
+
+.section {
+    max-width: 375px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FBFBFB;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sale-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    color: #0C0C0C;
+    margin-bottom: 24px;
+}
+
+.watch-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.watches-list {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.watch-img-container {
+
+    box-sizing: border-box;
+    padding: 13px 14px;
+    background-color: #F3F3F3;
+    border: 1px solid #E7E7E7;
+    border-radius: 16px;
+
+}
+
+.watch-main {
+
+    box-sizing: border-box;
+    padding: 50px;
+
+    background-color: #F3F3F3;
+    border: 1px solid #E7E7E7;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.sale-info {
+    background-color: #3350E9;
+    border-radius: 30px;
+    padding: 48px 28px 48px 28px;
+}
+
+.proper-name {
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    margin-bottom: 10px;
+}
+
+.proper-name-spn {
+    text-transform: uppercase;
+}
+
+.product-tag {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    padding-bottom: 20px;
+}
+
+.prise {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    gap: 9px;
+}
+
+.prise li:first-child {
+
+    padding: 8px 12px 8px 12px;
+    background-color: #4761EB;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25%;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+}
+
+.prise li:last-child {
+
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.main-info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.purpose-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+
+}
+
+.purpose {
+    padding: 8px 12px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #FBFBFB;
+    border: 1px solid #5B72ED;
+    border-radius: 8px;
+
+}
+
+/* ================SALE TABLET============= */
+
+@media screen and (min-width: 768px) and (max-width:1280px) {
+
+    .container {
+        width: 768px;
+      
+    }
+
+    .watch-block {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .watch-block-inherit {
+        display: flex;
+        width: 100vh;
+        margin-bottom: 40px;
+    }
+
+    .watches-list {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 0px;
+    }
+
+    .watch-img-container {
+
+        width: 132px;
+        padding: 16px 18px;
+        margin-right: 20px;
+    }
+
+    .watch-img-container img {
+        width: 96px;
+        height: 100px;
+    }
+
+
+
+    .watch-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+        margin-bottom: 0px;
+    }
+
+    .watch-main img {
+        width: 328px;
+        height: 398px;
+    }
+
+    .sale-info {
+        padding: 60px;
+    }
+
+    .proper-name{
+width: 436px;
+font-weight: 600;
+font-size: 32px;
+line-height: 1.12;
+letter-spacing: -0.02em;
+
+    }
+
+    .prise li:first-child{
+font-weight: 600;
+font-size: 20px;
+line-height: 1.0;
+letter-spacing: -0.02em;
+
+    }
+
+    .main-info {
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+margin-bottom: 40px;
+    }
+
+    .purpose-list{
+        width: 398px;
+    }
+
+    .purpose{
+        font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+
+    }
+}
+
+/* ================SALE DESKTOP============= */
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding: 0px 65px;
+        
+    }
+
+    .watch-block {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+
+    
+    .watch-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 428px;
+        margin-bottom: 0px;
+    }
+
+    .watch-block-inherit {
+        display: flex;
+        width: 100vh;
+        margin-bottom: 0px;
+    }
+
+    .watch-main img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+
+
+   .proper-name{
+    width: 436px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    
+        }
+
+}
+
+
