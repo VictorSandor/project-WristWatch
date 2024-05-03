@@ -1,0 +1,124 @@
+.container {
+    max-width: 375px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.about-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-us-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-us-content {
+    padding: 40px 20px;
+    border-radius: 30px;
+    background: #f3f3f3;
+}
+
+.about-us-box {
+    margin-bottom: 40px;
+}
+
+.about-us-tittle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 28px;
+}
+
+.about-us-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.about-us-text:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.about-us-btn-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+    border-radius: 16px;
+    background-color: #3350e9;
+    padding: 15px 37px 15px 38px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .about-us {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-us-wrap {
+        gap: 40px;
+    }
+
+    .about-us-content {
+        border-radius: 30px;
+        padding: 80px 60px;
+    }
+
+    .about-us-box {
+        margin-bottom: 60px;
+    }
+
+    .about-us-tittle {
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 40px;
+    }
+
+    .about-us-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+} 
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding-right: 65px;
+        padding-left: 65px;
+    }
+
+    .about-us {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about-us-wrap {
+        flex-wrap: nowrap;
+    }
+
+    .about-us-content {
+        border-radius: 50px; 
+    }
+
+    .about-us-box {
+        margin-bottom: 40px;
+    }
+
+    .about-us-wrap picture {
+        flex-shrink: 0;
+    }
+}
