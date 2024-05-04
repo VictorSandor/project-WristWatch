@@ -1,0 +1,123 @@
+.contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container {}
+
+.contact-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.contact-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 28px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 48px 28px;
+    width: 335px;
+    height: 512px;
+    background: #f3f3f3;
+    margin-bottom: 20px;
+}
+
+.label-field {
+    margin-bottom: 18px;
+}
+
+.contact-input-wrap {
+}
+
+.contact-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 18px;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 14px;
+    width: 279px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #0c0c0c;
+}
+
+.contact-input:focus {
+    outline: none;
+    border: 1px solid #3350e9;
+}
+
+.textarea-field {
+    margin-bottom: 28px;
+}
+
+.contact-textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding: 12px 14px;
+    width: 279px;
+    height: 84px;
+}
+
+textarea::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #0c0c0c;
+}
+
+.contact-textarea:focus {
+    outline: none;
+    border: 1px solid #3350e9;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 16px;
+    border: none;
+    padding: 12px 50px;
+    width: 134px;
+    height: 42px;
+    background: #3350e9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.cotnact-btn:hover,
+.cotnact-btn:focus  {
+    background: #1f3cd4;
+}

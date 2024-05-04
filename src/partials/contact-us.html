@@ -1,12 +1,12 @@
 <section class="contact" id="contact-us">
   <div class="container">
     <h2 class="contact-title">Contact Us</h2>
-    <p class="contact-text">
-      Please use the form below to contact us. Enter your name, email, phone,
-      and message and we'll get back to you shortly.
-    </p>
 
-    <form class="contact-form">
+    <form name="contact-form" class="contact-form">
+      <p class="contact-text">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
       <div class="label-field">
         <label for="user-name" class="visually-hidden">Name</label>
         <div class="contact-input-wrap">
@@ -19,6 +19,7 @@
           />
         </div>
       </div>
+
       <div class="label-field">
         <label for="user-email" class="visually-hidden">Email</label>
         <div class="contact-input-wrap">
@@ -30,30 +31,32 @@
             id="user-email"
           />
         </div>
-        <div class="label-field">
-          <label for="user-tel" class="visually-hidden">Phone</label>
-          <div class="contact-input-wrap">
-            <input
-              type="tel"
-              name="user-tel"
-              placeholder="+380"
-              class="contact-input"
-              id="user-tel"
-            />
-          </div>
+      </div>
+
+      <div class="label-field">
+        <label for="user-tel" class="visually-hidden">Phone</label>
+        <div class="contact-input-wrap">
+          <input
+            type="tel"
+            name="user-tel"
+            placeholder="+380"
+            class="contact-input"
+            id="user-tel"
+          />
         </div>
       </div>
+
       <div class="textarea-field">
         <label for="user-comment" class="visually-hidden">Comment</label>
         <textarea
           name="user-comment"
           rows="5"
-          placeholder="Text input"
+          placeholder="Comment"
           class="contact-textarea"
           id="user-comment"
         ></textarea>
       </div>
-      <button class="cotnact-btn" type="submit">Send</button>
+      <button class="contact-btn" type="submit">Send</button>
     </form>
 
     <picture>
@@ -67,11 +70,11 @@
       />
       <source
         srcset="./img/contact-img-mob.png 1x, ./img/contact-img-mob-2x.png 2x"
-        media="(max-width: 375px)"
+        media="(min-width: 375px)"
       />
       <img
         src="./img/contact-img.png"
-        alt="Banking App Screenshots"
+        alt="Contact Picture"
         width="530"
         height="556"
       />
