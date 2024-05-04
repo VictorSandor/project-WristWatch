@@ -14,8 +14,8 @@
       <path d="M15.993 19.787a3.813 3.813 0 1 0 0-7.626 3.813 3.813 0 0 0 0 7.626z" />
     </symbol>
     <symbol id="icon-x" viewBox="0 0 32 32">
-      <path fill="none" stroke="#fbfbfb" style="stroke:var(--color1, #fbfbfb)" stroke-linejoin="round"
-        stroke-linecap="round" stroke-width="2.4" d="M24 8 8 24M8 8l16 16" />
+      <path stroke="#fbfbfb" style="stroke:var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round"
+        stroke-width="2.4" d="M24 8 8 24M8 8l16 16" />
     </symbol>
     <symbol id="icon-youtube" viewBox="0 0 32 32">
       <path
