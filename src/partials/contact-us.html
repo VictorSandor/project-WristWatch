@@ -1,3 +1,80 @@
 <section class="contact" id="contact-us">
-  <h2>test</h2>
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <p class="contact-text">
+      Please use the form below to contact us. Enter your name, email, phone,
+      and message and we'll get back to you shortly.
+    </p>
+
+    <form class="contact-form">
+      <div class="label-field">
+        <label for="user-name" class="visually-hidden">Name</label>
+        <div class="contact-input-wrap">
+          <input
+            type="text"
+            name="user-name"
+            placeholder="Name"
+            class="contact-input"
+            id="user-name"
+          />
+        </div>
+      </div>
+      <div class="label-field">
+        <label for="user-email" class="visually-hidden">Email</label>
+        <div class="contact-input-wrap">
+          <input
+            type="email"
+            name="user-email"
+            placeholder="Email"
+            class="contact-input"
+            id="user-email"
+          />
+        </div>
+        <div class="label-field">
+          <label for="user-tel" class="visually-hidden">Phone</label>
+          <div class="contact-input-wrap">
+            <input
+              type="tel"
+              name="user-tel"
+              placeholder="+380"
+              class="contact-input"
+              id="user-tel"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="textarea-field">
+        <label for="user-comment" class="visually-hidden">Comment</label>
+        <textarea
+          name="user-comment"
+          rows="5"
+          placeholder="Text input"
+          class="contact-textarea"
+          id="user-comment"
+        ></textarea>
+      </div>
+      <button class="cotnact-btn" type="submit">Send</button>
+    </form>
+
+    <picture>
+      <source
+        srcset="./img/contact-img.png 1x, ./img/contact-img-2x.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./img/contact-img-tab.png 1x, ./img/contact-img-2x.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./img/contact-img-mob.png 1x, ./img/contact-img-mob-2x.png 2x"
+        media="(max-width: 375px)"
+      />
+      <img
+        src="./img/contact-img.png"
+        alt="Banking App Screenshots"
+        width="530"
+        height="556"
+      />
+    </picture>
+  </div>
 </section>
