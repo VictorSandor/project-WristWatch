@@ -19,7 +19,13 @@
 }
 
 .sale-title {
-  color: #0c0c0c; /*не наследуются параметры*/
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+
+  color: #0c0c0c;
 }
 
 .watch-block {
@@ -42,8 +48,8 @@
 }
 
 .watch-img-container img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 .watch-main {
@@ -144,6 +150,14 @@
     width: 768px; /*ломается верстка (если убрать параметр схлопывается блок с основной картинкой)*/
   }
 
+  .sale-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    color: #0c0c0c;
+  }
   .watch-block {
     flex-direction: row;
     flex-wrap: wrap;
@@ -232,6 +246,15 @@
     padding: 0px 65px;
   } */
 
+  .sale-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    color: #0c0c0c;
+  }
+
   .watch-block {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -287,6 +310,4 @@
     letter-spacing: -0.02em;
     margin-bottom: 40px;
   }
-
- 
 }
