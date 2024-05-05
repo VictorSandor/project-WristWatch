@@ -1,0 +1,91 @@
+<section class="contact" id="contact-us">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+
+    <div class="contact-form-container">
+      <form name="contact-form" class="contact-form">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <div class="label-field">
+          <label for="user-name" class="visually-hidden">Name</label>
+          <div class="contact-input-wrap">
+            <input
+              type="text"
+              name="user-name"
+              placeholder="Name"
+              class="contact-input"
+              id="user-name"
+              minlength="2"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="label-field">
+          <label for="user-email" class="visually-hidden">Email</label>
+          <div class="contact-input-wrap">
+            <input
+              type="email"
+              name="user-email"
+              placeholder="Email"
+              class="contact-input"
+              id="user-email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="label-field">
+          <label for="user-tel" class="visually-hidden">Phone</label>
+          <div class="contact-input-wrap">
+            <input
+              type="tel"
+              name="user-tel"
+              placeholder="+380"
+              class="contact-input"
+              id="user-tel"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              title="+380-XX-XXX-XX-XX"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="textarea-field">
+          <label for="user-comment" class="visually-hidden">Comment</label>
+          <textarea
+            name="user-comment"
+            rows="5"
+            placeholder="Comment"
+            class="contact-textarea"
+            id="user-comment"
+          ></textarea>
+        </div>
+        <button class="contact-btn" type="submit">Send</button>
+      </form>
+
+      <picture>
+        <source
+          srcset="./img/contact-img.png 1x, ./img/contact-img-2x.png 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="./img/contact-img-tab.png 1x, ./img/contact-img-tab-2x.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./img/contact-img-mob.png 1x, ./img/contact-img-mob-2x.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          src="./img/contact-img-mob.png"
+          alt="contact picture"
+          class="contact-picture"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
