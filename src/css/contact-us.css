@@ -84,6 +84,7 @@ input::placeholder {
     padding: 12px 14px;
     width: 279px;
     height: 84px;
+    resize: none;
 }
 
 textarea::placeholder{

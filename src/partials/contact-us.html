@@ -16,6 +16,8 @@
             placeholder="Name"
             class="contact-input"
             id="user-name"
+            minlength="2"
+            required
           />
         </div>
       </div>
@@ -29,6 +31,8 @@
             placeholder="Email"
             class="contact-input"
             id="user-email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
           />
         </div>
       </div>
@@ -42,6 +46,9 @@
             placeholder="+380"
             class="contact-input"
             id="user-tel"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            title="+380-XX-XXX-XX-XX"
+            required
           />
         </div>
       </div>
