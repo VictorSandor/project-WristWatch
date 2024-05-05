@@ -52,14 +52,12 @@
     padding: 12px 14px;
     width: 279px;
     height: 42px;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     color: #0c0c0c;
 }
 
 input::placeholder {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     color: #0c0c0c;
@@ -88,7 +86,6 @@ input::placeholder {
 }
 
 textarea::placeholder{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     color: #0c0c0c;
@@ -118,6 +115,8 @@ textarea::placeholder{
     color: #fbfbfb;
 }
 
+
+
 @media screen and (min-width: 320px) and (max-width: 374px) {
 
 .contact-picture {
@@ -126,6 +125,14 @@ textarea::placeholder{
 
 /* .contact-form {
     max-width: 335px;
+}
+
+.contact-input {
+    max-width: 279px;
+}
+
+.contact-textarea {
+    max-width: 279px;
 } */
 
 /* .contact-form-container {
