@@ -206,5 +206,10 @@ textarea::placeholder {
     background: #1f3cd4;
 }
 
+.contact-form-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
 
 }
