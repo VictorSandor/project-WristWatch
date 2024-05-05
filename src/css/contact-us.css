@@ -53,8 +53,8 @@
     width: 279px;
     height: 42px;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 14px;
+    line-height: 1.29;
     color: #0c0c0c;
 }
 
@@ -118,10 +118,9 @@ textarea::placeholder{
     color: #fbfbfb;
 }
 
-.cotnact-btn:hover,
-.cotnact-btn:focus  {
-    background: #1f3cd4;
-}
+
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -150,8 +149,16 @@ textarea::placeholder{
 }
 
 .contact-input {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 16px 18px;
     width: 460px;
     height: 52px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
 }
 
 .textarea-field {
@@ -164,12 +171,40 @@ textarea::placeholder{
     height: 90px;
 }
 
+textarea::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
 .contact-btn {
     padding: 17px 63px;
     width: 160px;
     height: 52px;
 }
 
+
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+.contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+.contact-form {
+    padding: 50px 60px;
+    width: 580px;
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+    background: #1f3cd4;
+}
 
 
 }
