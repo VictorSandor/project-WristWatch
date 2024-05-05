@@ -62,7 +62,7 @@
 }
 
 .nav-link:hover::after,
-.nav-link:focus::after {
+.nav-link:focus-visible::after {
   opacity: 1;
   /* transform: translate(-50%, 0); */
 }
