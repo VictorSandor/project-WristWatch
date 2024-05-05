@@ -295,7 +295,7 @@
 }
 
 .mobile-menu-link:hover::after,
-.mobile-menu-link:focus::after {
+.mobile-menu-link:focus-visible::after {
   opacity: 1;
   /* transform: translate(-50%, 0); */
 }
