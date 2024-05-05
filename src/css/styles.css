@@ -15,7 +15,6 @@
 @import url('./contact-us.css');
 @import url('./footer.css');
 
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -34,8 +33,6 @@
   padding: 0 20px;
   margin: 0 auto;
 }
-
-
 
 @media only screen and (min-width: 375px) {
   .container {
@@ -74,7 +71,7 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .section {
     padding: 50px 0;
   }
@@ -100,9 +97,6 @@
   color: #fff;
   margin-bottom: 24px;
 }
-
-
-
 
 /* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
