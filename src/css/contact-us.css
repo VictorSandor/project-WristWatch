@@ -118,7 +118,23 @@ textarea::placeholder{
     color: #fbfbfb;
 }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
 
+.contact-picture {
+    max-width: 335px;
+}
+
+/* .contact-form {
+    max-width: 335px;
+} */
+
+/* .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+}
 
 
 
