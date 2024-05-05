@@ -2,11 +2,12 @@
 
 .section {
   min-width: 320px;
-  max-width: 375px;
+  /* max-width: 375px; */
 
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #fbfbfb;
+  margin: 0 auto;
 }
 
 .container {
