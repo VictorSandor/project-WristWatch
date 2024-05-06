@@ -14,7 +14,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 42px;
+  padding-bottom: 10px;
 }
+
 .image-watch {
   object-fit: cover;
 }
@@ -41,8 +44,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 42px;
-  padding-bottom: 10px;
+  /* padding-top: 42px;
+  padding-bottom: 10px; */
 }
 
 .catalog-name {
