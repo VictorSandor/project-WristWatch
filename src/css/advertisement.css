@@ -13,8 +13,7 @@
         border-radius: 30px;
         text-align: left;
         padding: 60px 28px;
-        max-width: 335px;
-        margin: 0 auto;
+        margin-bottom: 0;
     }
 
     @media screen and (min-resolution: 192dpi) {
@@ -54,6 +53,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition-property: background-color, color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .link-contact:hover,
+    .link-contact:focus {
+        background-color: #fbfbfb;
+        color: #0C0C0C;
     }
 
     .container-link-contact {
@@ -121,19 +129,6 @@
         display: flex;
         gap: 140px;
         flex-direction: row;
-    }
-
-
-    .link-contact {
-        transition-property: background-color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .link-contact:hover,
-    .link-contact:focus {
-        background-color: #fbfbfb;
-        color: #0C0C0C;
     }
 
     .title-section-advertisement {
