@@ -6,12 +6,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
-.hero-container {
-  justify-content: space-between;
-  width: 100%;
-}
+
 .hero-text {
   height: 206px;
   flex-direction: column;
@@ -43,11 +40,10 @@
   color: rgba(12, 12, 12, 0.7);
   word-wrap: break-word;
 }
-.section {
-  justify-content: flex-start;
-  align-items: flex-end;
-  gap: 155px;
-  display: inline-flex;
+.section-mob {
+  justify-content: space-between;
+  display: flex;
+  padding: 28px 0;
 }
 .image-people {
   width: 108px;
@@ -65,9 +61,14 @@
   text-decoration-skip-ink: none;
   display: inline-block;
 }
+.hero-scroll-link:hover,
+.hero-scroll-link:focus {
+  color: #3350e9;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .rectangle {
-  width: 335px;
-  height: 366px;
+  height: 100%;
+  object-fit: cover;
   background: linear-gradient(
     0deg,
     rgba(12, 12, 12, 0.2) 0%,
@@ -75,6 +76,7 @@
   );
   border-radius: 30px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 /**TABLET VERSION**/
@@ -93,12 +95,6 @@
     max-width: 768px;
     padding: 0;
   }
-  .hero-container {
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 11px;
-    display: inline-block;
-  }
   .hero-text {
     width: 557px;
     flex-direction: column;
@@ -107,7 +103,6 @@
     gap: 20px;
     display: inline-flex;
   }
-
   .main-title {
     width: 557px;
     font-family: 'Gilroy', sans-serif;
@@ -127,9 +122,6 @@
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     word-wrap: break-word;
-  }
-  .section {
-    padding: 0;
   }
   .section-tab {
     width: 136px;
@@ -152,6 +144,11 @@
     text-decoration: underline;
     line-height: 20px;
     letter-spacing: -0.02em;
+  }
+  .hero-scroll-link:hover,
+  .hero-scroll-link:focus {
+    color: #3350e9;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .text-section {
     display: flex;
@@ -178,7 +175,7 @@
 /**DESKTOP VERSION**/
 @media only screen and (min-width: 1280px) {
   .hero {
-    width: 100%;
+    width: 1280px;
     padding-top: 80px;
     padding-left: 65px;
     padding-right: 65px;
@@ -204,6 +201,7 @@
   .hero-scroll-link:hover,
   .hero-scroll-link:focus {
     color: #3350e9;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .text-section {
     justify-content: flex-start;
