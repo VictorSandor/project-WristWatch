@@ -1,5 +1,6 @@
 footer.footer {
   color: #fbfbfb;
+  margin: 30px 0 20px 0;
 }
 
 footer.footer .footer-container {
@@ -49,7 +50,8 @@ footer.footer .footer-social-link .icon {
   fill: #fbfbfb;
   opacity: 0.8;
 
-  transition: fill 150ms ease-in-out, opacity 150ms ease-in-out;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer.footer .footer-phone {
@@ -67,7 +69,7 @@ footer.footer .footer-phone {
 
   margin-bottom: 40px;
 
-  transition: color 150ms ease-in-out;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer.footer .footer-text {
@@ -104,7 +106,7 @@ footer.footer .nav-link {
   line-height: 1.33;
   text-align: center;
 
-  transition: color 150ms ease-in-out;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer.footer .footer-address {
@@ -130,7 +132,19 @@ footer.footer .footer-policy {
 }
 
 footer.footer .footer-policy li > a {
-  transition: color 150ms ease-in-out;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* hovers */
+footer.footer .footer-social-link:hover .icon {
+  fill: #3350e9;
+  opacity: 1;
+}
+
+footer.footer .footer-phone:hover,
+footer.footer .nav-link:hover,
+footer.footer .footer-policy li > a:hover {
+  color: #3350e9;
 }
 
 @media only screen and (min-width: 768px) {
@@ -247,17 +261,5 @@ footer.footer .footer-policy li > a {
 
   footer.footer .footer-address {
     flex: 0 1 15%;
-  }
-
-  /* hovers */
-  footer.footer .footer-social-link:hover .icon {
-    fill: #3350e9;
-    opacity: 1;
-  }
-
-  footer.footer .footer-phone:hover,
-  footer.footer .nav-link:hover,
-  footer.footer .footer-policy li > a:hover {
-    color: #3350e9;
   }
 }
