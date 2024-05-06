@@ -1,0 +1,163 @@
+.catalog-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.catalog-i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 100%;
+  background: #f3f3f3;
+}
+
+.image-watch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 42px;
+  padding-bottom: 10px;
+}
+
+.catalog-name {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  text-align: left;
+  padding-left: 28px;
+  padding-bottom: 8px;
+}
+
+.catalog-price {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+  text-align: left;
+  padding-left: 28px;
+  padding-bottom: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+.catalog-btn {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .catalog-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+  }
+
+  .catalog-list {
+    gap: 32px 16px;
+  }
+
+  .catalog-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .catalog-name {
+    font-size: 20px;
+  }
+
+  .image-watch {
+    width: 268px;
+  }
+
+  .hidden {
+    display: block;
+  }
+  .catalog-btn {
+    display: none;
+  }
+}
+
+/* dek */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+  .catalog-list {
+    gap: 32px 23px;
+  }
+
+  .image-watch {
+    width: 304px;
+  }
+
+  .catalog-item {
+    width: calc((100% - 3 * 23px) / 3);
+  }
+}
