@@ -6,11 +6,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   display: inline-flex;
-  padding-bottom: 30px;
 }
 
 .hero-text {
-  height: 206px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -18,7 +16,6 @@
   display: flex;
 }
 .main-title {
-  width: 335px;
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 40px;
@@ -31,7 +28,6 @@
   color: #3350e9;
 }
 .hero-description {
-  width: 335px;
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -83,13 +79,11 @@
 @media only screen and (min-width: 768px) {
   .hero {
     width: 100%;
-    padding: 80px 32px 0px 32px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
     gap: 40px;
     display: inline-flex;
-    margin-bottom: 40px;
   }
   .container {
     max-width: 768px;
@@ -104,7 +98,6 @@
     display: inline-flex;
   }
   .main-title {
-    width: 557px;
     font-family: 'Gilroy', sans-serif;
     font-weight: 600;
     font-size: 70px;
@@ -114,7 +107,6 @@
     word-wrap: break-word;
   }
   .hero-description {
-    width: 480px;
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -155,6 +147,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
+    padding-bottom: 40px;
   }
   .rectangle {
     width: 704px;
@@ -175,7 +168,7 @@
 /**DESKTOP VERSION**/
 @media only screen and (min-width: 1280px) {
   .hero {
-    width: 1280px;
+    width: 100%;
     padding-top: 80px;
     padding-left: 65px;
     padding-right: 65px;
@@ -204,10 +197,9 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .text-section {
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 407px;
-    display: inline-flex;
+    display: flex;
   }
   .hero-text {
     flex-direction: column;
@@ -221,10 +213,8 @@
     font-size: 72px;
     font-weight: 600;
     line-height: 63px;
-    width: 597px;
   }
   .hero-description {
-    width: 480px;
     color: rgba(12, 12, 12, 0.7);
     font-size: 16px;
     font-weight: 500;
