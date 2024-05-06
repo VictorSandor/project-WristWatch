@@ -63,9 +63,13 @@
 
 .header-nav-link:hover::after,
 .header-nav-link:focus-visible::after {
+  
   opacity: 1;
   /* transform: translate(-50%, 0); */
 }
+
+
+
 
 .social-links-container {
   display: none;
@@ -115,17 +119,12 @@
     display: flex;
   }
 
-  /* .cur::after {
-    content: '';
-    position: absolute;
-    left: 37.2%;
-    transform: translateX(-50%);
-    margin-top: 23px;
-    height: 8px;
-    width: 8px;
-    background-color: #3350e9;
-    border-radius: 50%;
-  } */
+  .header-nav-link:focus,
+  .header-nav-link:hover {
+      color: #3350e9;
+  }
+
+  
 
   .social {
     display: inline;
@@ -303,6 +302,11 @@
 .mobile-menu-link:focus-visible::after {
   opacity: 1;
   /* transform: translate(-50%, 0); */
+}
+
+.mobile-menu-link:focus,
+.mobile-menu-link:hover {
+  color: #3350e9;
 }
 
 
