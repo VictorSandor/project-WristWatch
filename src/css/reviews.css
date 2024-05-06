@@ -1,0 +1,120 @@
+.reviews-div{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+.reviews-headline-two{
+    font-weight: 600;
+font-size: 48px;
+line-height: 0.91667;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+text-align: left;
+}
+.reviews-element{
+    display:none;
+    
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    border-radius: 30px;
+    padding: 32px 36px;
+    
+    
+    background-color:  #f3f3f3;
+
+}
+.reviews-element:first-child{
+    display:flex;
+}
+.reviews-img{
+    border-radius: 100%;
+stroke-width: 2px;
+stroke: #fbfbfb;
+margin-bottom: 24px;
+}
+.reviews-headline{
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0c0c0c;
+    margin-bottom: 8px;
+}
+.reviews-paragraph{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(12, 12, 12, 0.4);
+}
+@media screen and (min-width: 768px){
+    .reviews-div{
+        gap:40px;
+    }
+    .reviews-element{
+        display:flex;
+    }
+    .reviews-element:last-child{
+        display:none;
+    }
+    .reviews-list{
+        display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    }
+    .reviews-paragraph{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);
+        
+    }
+    .reviews-headline{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #0c0c0c;
+    }
+    
+}
+@media screen and (min-width: 1280px){
+    .reviews-element:last-child{
+        display:flex;
+    }
+    .reviews-list{
+        gap:20px;
+    }
+    .reviews-element
+    {
+        max-width: 370px;
+        max-height: 272px;
+    }
+    .reviews-paragraph{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);
+    }
+    .reviews-headline{
+        font-weight: 500;
+font-size: 18px;
+line-height: 1.1;
+letter-spacing: -0.02em;
+text-align: center;
+color: #0c0c0c;
+    }
+
+}
