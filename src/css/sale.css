@@ -2,21 +2,13 @@
 
 .section {
   min-width: 320px;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  max-width: 375px;
-=======
-  /* max-width: 375px; */
->>>>>>> Stashed changes
-=======
-  /* max-width: 375px; */
->>>>>>> main
 
-=======
+
+
   /* max-width: 375px; */
+
 display: block;
->>>>>>> Stashed changes
+
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #fbfbfb;
