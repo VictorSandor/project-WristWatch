@@ -1,18 +1,19 @@
 /* ================SALE MOBILE============= */
 
 .section {
-  min-width: 320px;
+  display: block;
+  /* min-width: 320px;
 
 
 
-  /* max-width: 375px; */
+  max-width: 375px;
 
-display: block;
+
 
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #fbfbfb;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .container {
