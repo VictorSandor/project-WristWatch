@@ -34,7 +34,7 @@
 
 
 
-.nav-link {
+.header-nav-link {
   display: block;
   position: relative;
   padding: 30px 0;
@@ -47,7 +47,7 @@
   align-items: center;
 }
 
-.nav-link::after {
+.header-nav-link::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -61,8 +61,8 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover::after,
-.nav-link:focus-visible::after {
+.header-nav-link:hover::after,
+.header-nav-link:focus-visible::after {
   opacity: 1;
   /* transform: translate(-50%, 0); */
 }
@@ -83,6 +83,7 @@
   width: 34px;
   height: 34px;
 }
+
 
 @media only screen and (min-width: 768px) {
 
@@ -213,6 +214,10 @@
     opacity: 1;
     pointer-events: auto;
     transition: opacity 0.3s ease;
+}
+
+.no-scroll {
+  overflow: hidden
 }
 
 
