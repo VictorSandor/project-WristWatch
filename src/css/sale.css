@@ -2,7 +2,12 @@
 
 .section {
   min-width: 320px;
+
+
+
   /* max-width: 375px; */
+
+display: block;
 
   padding-top: 30px;
   padding-bottom: 30px;
