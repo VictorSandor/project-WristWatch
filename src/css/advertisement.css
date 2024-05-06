@@ -5,8 +5,7 @@
     
     .section-advertisement {
         background-color: #0C0C0C;
-        background-image: linear-gradient(rgba(12, 12, 12, 0.85), rgba(12, 12, 12, 0.85)),
-        url(../img/Advertisement/image_70_mob.jpg); 
+        background-image: url(../img/advertisement/image_70_mob@1x.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -18,8 +17,7 @@
 
     @media screen and (min-resolution: 192dpi) {
         .section-advertisement {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.85), rgba(12, 12, 12, 0.85)),
-                url(../img/Advertisement/image_70_mob@2x.jpg);
+            background-image: url(../img/Advertisement/image_70_mob@2х.png);
         }
     }
 
@@ -77,16 +75,14 @@
 @media only screen and (min-width: 768px) {
 
     .section-advertisement {
-        background-image: linear-gradient(rgba(12, 12, 12, 0.85), rgba(12, 12, 12, 0.85)),
-        url(../img/Advertisement/image_70_tab.jpg); 
+        background-image: url(../img/advertisement/image_70_tab@1x.png);
         padding: 80px 64px;
         max-width: 704px;
     }
 
     @media screen and (min-resolution: 192dpi) {
         .section-advertisement {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.85), rgba(12, 12, 12, 0.85)),
-                url(../img/Advertisement/image_70_tab@2x.jpg);
+            background-image: url(../img/Advertisement/image_70_tab@2x.png);
         }
     }
 
@@ -111,8 +107,7 @@
 @media only screen and (min-width: 1280px) {
 
     .section-advertisement {
-        background-image: linear-gradient(rgba(12, 12, 12, 0.85), rgba(12, 12, 12, 0.85)),
-        url(../img/Advertisement/image_70_desk.jpg); 
+        background-image: url(../img/Advertisement/image_70_desk@1x.png); 
         padding: 83px 80px;
         max-width: 1150px;
         margin: 0 auto;
@@ -120,8 +115,7 @@
 
     @media screen and (min-resolution: 192dpi) {
         .section-advertisement {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.85), rgba(12, 12, 12, 0.85)),
-                url(../img/Advertisement/image_70_desk@2x.jpg);
+            background-image: url(../img/Advertisement/image_70_desk@2x.png);
         }
     }
 
