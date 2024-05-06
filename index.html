@@ -11,7 +11,7 @@
     />
     
     
-    <link rel="stylesheet" href="/project-WristWatch/assets/index-7b29b71d.css">
+    <link rel="stylesheet" href="/project-WristWatch/assets/index-a93ccb75.css">
   </head>
   <body>
     <header class="header">
@@ -20,22 +20,22 @@
       <a id="home" href="" class="logo">wathcharm</a>
       <ul class="nav-links-container">
         <li class="nav-link-item">
-          <a href="#home" class="nav-link">Home</a>
+          <a href="#home" class="header-nav-link">Home</a>
         </li>
         <li class="nav-link-item">
-          <a href="#about-us" class="nav-link">About Us</a>
+          <a href="#about-us" class="header-nav-link">About Us</a>
         </li>
         <li class="nav-link-item">
-          <a href="#catalog" class="nav-link">Catalog</a>
+          <a href="#catalog" class="header-nav-link">Catalog</a>
         </li>
         <li class="nav-link-item">
-          <a href="#sale" class="nav-link">Sale</a>
+          <a href="#sale" class="header-nav-link">Sale</a>
         </li>
         <li class="nav-link-item">
-          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="#reviews" class="header-nav-link">Reviews</a>
         </li>
         <li class="nav-link-item">
-          <a href="#contact-us" class="nav-link">Contact Us</a>
+          <a href="#contact-us" class="header-nav-link">Contact Us</a>
         </li>
       </ul>
     </nav>
@@ -65,7 +65,7 @@
         </li>
       </ul>
     </div>
-    <button class="burger" type="button">
+    <button class="burger" type="button" data-menu-open>
       <svg class="burger-icon" width="40" height="40">
         <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-burger" />
       </svg>
@@ -74,75 +74,86 @@
 
   <!-- Mob.menu   /is-open/ -->
 
-  <div class="mobile-menu i-open">
-    <div class="mobile-menu-container">
-      <button class="mobile-menu-close" id="close" aria-label="Close menu">
-        <svg class="mobile-menu-close-icon" width="34" height="34">
-          <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-x"></use>
-        </svg>
-      </button>
-      <nav class="mobile-menu-navigation">
-        <ul class="mobile-menu-list">
-          <li class="mobile-menu-list-item">
-            <a class="mobile-menu-link" href="#home"> Home </a>
-          </li>
-          <li class="mobile-menu-list-item">
-            <a class="mobile-menu-link" href="#about-us"> About us </a>
-          </li>
-          <li class="mobile-menu-list-item">
-            <a class="mobile-menu-link" href="#catalog"> Catalog </a>
-          </li>
-          <li class="mobile-menu-list-item">
-            <a class="mobile-menu-link" href="#sale"> Sale </a>
-          </li>
-          <li class="mobile-menu-list-item">
-            <a class="mobile-menu-link" href="#reviews"> Reviews </a>
-          </li>
-          <li class="mobile-menu-list-item">
-            <a class="mobile-menu-link" href="#contact-us"> Contact us </a>
-          </li>
-        </ul>
-      </nav>
-
-      <ul class="mobile-menu-social-links-container">
-        <li class="mobile-menu-social-link-item">
-          <a
-            class="mobile-menu-social-link"
-            href="https://www.facebook.com/goITclub/"
-            target="_blank"
-            aria-label="Facebook link"
-          >
-            <svg class="mobile-menu-social-link-icon" width="18" height="18">
-              <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-facebook"></use>
-            </svg>
+  <div class="mobile-menu i-open" data-menu>
+    <button
+      class="mobile-menu-close"
+      id="close"
+      aria-label="Close menu"
+      data-menu-close
+    >
+      <svg class="mobile-menu-close-icon" width="34" height="34">
+        <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-x"></use>
+      </svg>
+    </button>
+    <nav class="mobile-menu-navigation">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-list-item">
+          <a class="mobile-menu-link" data-menu-close href="#home"> Home </a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a class="mobile-menu-link" data-menu-close href="#about-us">
+            About us
           </a>
         </li>
-        <li class="mobile-menu-social-link-item">
-          <a
-            class="mobile-menu-social-link"
-            href="https://www.instagram.com/goitclub/"
-            target="_blank"
-            aria-label="Instagram link"
-          >
-            <svg class="mobile-menu-social-link-icon" height="18" width="18">
-              <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-instagram"></use>
-            </svg>
+        <li class="mobile-menu-list-item">
+          <a class="mobile-menu-link" data-menu-close href="#catalog">
+            Catalog
           </a>
         </li>
-        <li class="mobile-menu-social-link-item">
-          <a
-            class="mobile-menu-social-link"
-            href="https://www.youtube.com/c/GoIT"
-            target="_blank"
-            aria-label="YouTube link"
-          >
-            <svg class="mobile-menu-social-link-icon" height="18" width="18">
-              <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-youtube"></use>
-            </svg>
+        <li class="mobile-menu-list-item">
+          <a class="mobile-menu-link" data-menu-close href="#sale"> Sale </a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a class="mobile-menu-link" data-menu-close href="#reviews">
+            Reviews
+          </a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a class="mobile-menu-link" data-menu-close href="#contact-us">
+            Contact us
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
+
+    <ul class="mobile-menu-social-links-container">
+      <li class="mobile-menu-social-link-item">
+        <a
+          class="mobile-menu-social-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="Facebook link"
+        >
+          <svg class="mobile-menu-social-link-icon" width="18" height="18">
+            <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mobile-menu-social-link-item">
+        <a
+          class="mobile-menu-social-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="Instagram link"
+        >
+          <svg class="mobile-menu-social-link-icon" height="18" width="18">
+            <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mobile-menu-social-link-item">
+        <a
+          class="mobile-menu-social-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          aria-label="YouTube link"
+        >
+          <svg class="mobile-menu-social-link-icon" height="18" width="18">
+            <use href="/project-WristWatch/assets/sprite-837861cc.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
   </div>
 </header>
 
@@ -815,6 +826,25 @@
   </div>
 </footer>
 
+    <script>
+      (() => {
+        const refs = {
+          openMenuBtn: document.querySelectorAll('[data-menu-open]'),
+          closeMenuBtn: document.querySelectorAll('[data-menu-close]'),
+          menu: document.querySelector('[data-menu]'),
+        };
+        refs.openMenuBtn.forEach(element => {
+          element.addEventListener('click', toggleMenu);
+        });
+        refs.closeMenuBtn.forEach(element => {
+          element.addEventListener('click', toggleMenu);
+        });
+        function toggleMenu() {
+          refs.menu.classList.toggle('is-open');
+          document.body.classList.toggle('no-scroll');
+        }
+      })();
+    </script>
   </body>
 </html>
 
