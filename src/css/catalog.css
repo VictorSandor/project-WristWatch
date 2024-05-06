@@ -177,6 +177,6 @@ p {
   }
 
   .catalog-item {
-    width: calc((100% - 3 * 23px) / 3);
+    width: calc((100% - 2 * 23px) / 3);
   }
 }
