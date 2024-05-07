@@ -56,13 +56,13 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
   text-align: left;
+  padding-right: 28px;
   padding-left: 28px;
   padding-bottom: 8px;
   padding-top: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 304px;
 }
 
 .catalog-price {
