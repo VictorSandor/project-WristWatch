@@ -248,7 +248,7 @@ html {
   display: block;
   stroke: #fbfbfb;
   stroke-width: 3px;
-  height: 34x;
+  height: 34px;
   width: 34px;
 }
 
@@ -373,7 +373,6 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 220px 0 50px;
-    margin: 0 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -404,7 +403,7 @@ html {
     display: block;
     stroke: #fbfbfb;
     stroke-width: 3px;
-    height: 34x;
+    height: 34px;
     width: 34px;
   }
 
