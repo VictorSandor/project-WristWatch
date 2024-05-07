@@ -373,7 +373,6 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 220px 0 50px;
-    margin: 0 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
