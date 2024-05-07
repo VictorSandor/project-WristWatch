@@ -16,6 +16,7 @@
   display: flex;
 }
 .main-title {
+  width: 335px;
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 40px;
@@ -28,6 +29,7 @@
   color: #3350e9;
 }
 .hero-description {
+  width: 335px;
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -98,6 +100,7 @@
     display: inline-flex;
   }
   .main-title {
+    width: 557px;
     font-family: 'Gilroy', sans-serif;
     font-weight: 600;
     font-size: 70px;
@@ -107,6 +110,7 @@
     word-wrap: break-word;
   }
   .hero-description {
+    width: 557px;
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -209,12 +213,14 @@
     display: inline-flex;
   }
   .main-title {
+    min-width: 597px;
     color: #0c0c0c;
     font-size: 72px;
     font-weight: 600;
     line-height: 63px;
   }
   .hero-description {
+    max-width: 480px;
     color: rgba(12, 12, 12, 0.7);
     font-size: 16px;
     font-weight: 500;
