@@ -221,6 +221,9 @@ footer.footer .footer-policy li > a:hover {
 }
 
 @media only screen and (min-width: 1280px) {
+  footer.footer .container {
+    padding: 0 32px;
+  }
   footer.footer .upper-wrapper {
     flex-wrap: nowrap;
     justify-content: center;
