@@ -153,10 +153,6 @@
 /* ================SALE TABLET============= */
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-  .container {
-    width: 768px; /*ломается верстка (если убрать параметр схлопывается блок с основной картинкой)*/
-  }
-
   .sale-title {
     font-weight: 600;
     font-size: 48px;
