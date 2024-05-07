@@ -152,7 +152,7 @@
 
 /* ================SALE TABLET============= */
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) {
   .sale-title {
     font-weight: 600;
     font-size: 48px;
