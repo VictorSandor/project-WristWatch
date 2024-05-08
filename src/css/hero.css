@@ -75,6 +75,7 @@
   margin: 0 auto;
   overflow: hidden;
 }
+/**THE END OF MOBILE VERSION**/
 
 /**TABLET VERSION**/
 @media only screen and (min-width: 768px) {
@@ -168,6 +169,8 @@
     max-width: 100%;
   }
 }
+/**THE END OF TABLET VERSION**/
+
 /**DESKTOP VERSION**/
 @media only screen and (min-width: 1280px) {
   .hero {
@@ -241,3 +244,4 @@
     border-radius: 50px;
   }
 }
+/**THE END OF DESKTOP VERSION**/
